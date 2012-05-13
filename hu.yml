@@ -47,35 +47,35 @@ hu:
   common:
     format_name: "%{first_name} %{last_name}"
     format_name_short: "%{first_name_first_character}. %{last_name}"
-    and: and
-    or: or
+    and: és
+    or: vagy
     in_project: in
-    delete: Delete
-    edit: Edit
-    rename: Rename
-    accept: Accept
-    decline: Decline
-    download: Download
-    cancel: Cancel
-    close: Close
-    save: Save
-    saving: Saving
-    show_more: Show more
-    move: Move
-    print: Print this page
-    prev: Previous
-    next: Next
+    delete: Törlés
+    edit: Szerkesztés
+    rename: Átnevezés
+    accept: Elfogad
+    decline: Elutasít
+    download: Letöltés
+    cancel: Mégsem
+    close: Bezárás
+    save: Mentés
+    saving: Mentés
+    show_more: Több megjelnítése
+    move: Áthelyezés
+    print: Oldal nyomtatása
+    prev: Előző
+    next: Következő
     comment:
-      one: "%{count} comment"
-      other: "%{count} comments"
+      one: "%{count} hozzászólás"
+      other: "%{count} hozzászólás"
     not_allowed: You are not allowed to do that!
-    calendar: Calendar
+    calendar: Naptár
     gantt_chart: Gantt Chart
-    signup: Sign up
-    logged_out: You were logged out
-    loading: Loading...
-    download_as_csv: Download as CSV
-    pagination: "Showing results from: "
+    signup: Feliratkozás
+    logged_out: Ön kilépett
+    loading: Töltés...
+    download_as_csv: CSV letöltése
+    pagination: "Eredmények mutatása: "
   confirm:
     delete_task_list: Are you sure you want to delete this task list?
     delete_task: Are you sure you want to delete this task?
@@ -84,7 +84,7 @@ hu:
     delete_folder: Are you sure you want to delete this folder?
     delete_group: Are you sure you want to delete this group?
   not_found:
-    user: "User does not exist."
+    user: "Felhasználó nem létezik."
     conversation: "Conversation %{id} not found in this project."
     project: "The project %{id} doesn't exist."
     page: "Page %{id} not found in this project."
@@ -93,16 +93,16 @@ hu:
     task: "Task %{id} not found in this project."
     data: "There was a problem locating your data."
   deleted:
-    conversation: "Deleted %{name} conversation"
-    task: "Deleted %{name} task"
-    task_list: "Deleted %{name} task list"
-    page: "Deleted %{name} page"
-    upload: "Deleted %{name} file"
-    folder: "Deleted %{name} folder"
-    person: "%{name} is no longer in the project"
-    failed_person: "%{name} could not be removed from the project"
-    left_project: "You are no longer in this project"
-    failed_left_project: "You cannot leave this project"
+    conversation: "Beszélgetés törlöve: %{name}"
+    task: "Feladat törölve: %{name}"
+    task_list: "Feladat lista törölve: %{name}"
+    page: "Oldal törölve: %{name}"
+    upload: "Fájl törölve: %{name}"
+    folder: "Mappa törölve %{name}"
+    person: "%{name} már nincs a projektben."
+    failed_person: "%{name} eltávolítása sikertelen."
+    left_project: "Már nem vesz részt ebben a projektben."
+    failed_left_project: "Nem hagyhatja el a projektet."
   public_downloads:
     promo_p1: This %{downloadable} is shared using Teambox, a collaboration platform for your projects.
     promo_p2: Enjoy better task management, file sharing and group communication.
@@ -111,26 +111,26 @@ hu:
     not_found: %{downloadable} not found. Verify the link you followed or request a new link in case of problem.
   activities:
     create_upload:
-      title: "%{user} uploaded a file: %{file}"
-      title_with_page: "%{user} uploaded a file to %{page}:"
+      title: "%{user} feltöltött egy fájlt: %{file}"
+      title_with_page: "%{user} feltöltött egy fájlt erre a(z) %{page} oldalra:"
     create_conversation:
-      create_conversation: started the conversation
-      title: "%{user} started a conversation: %{conversation}"
+      create_conversation: "elindította a tárgyalást"
+      title: "%{user} elindította egy tárgyalást: %{conversation}"
     create_comment:
       create_comment: created the comment
-      title: "%{user} commented on %{target}"
+      title: "%{user} hozzászólt ehhez: %{target}"
     create_comment_task:
-      title: "%{user} updated task %{target}"
+      title: "%{user} frissítette ezt a feladatot: %{target}"
     create_comment_project:
-      title: "%{user} updated status on %{target}"
+      title: "%{user} frissítette ennek az állapotát: %{target}"
     create_comment_conversation:
-      title: "%{user} followed up on conversation %{target}"
+      title: "%{user} hozzászólt ehhez a tárgyaláshoz %{target}"
     create_task_list:
-      create_task_list: created the task list
-      title: "%{user} created task list %{task_list}"
+      create_task_list: "létrehozta a feladat listát"
+      title: "%{user} létrehozta a %{task_list} feladatlistát"
     create_task:
-      create_task: created the task
-      title: "%{user} created task %{task} in %{task_list}"
+      create_task: létrehozta a feladatot
+      title: "%{user} létrehozta a %{task} feladatot ebben: %{task_list}"
     create_page:
       create_page: created the page
       title: "%{user} created page %{page}"
@@ -1848,7 +1848,7 @@ hu:
     time_ago: "%{time_ago_in_words} ago"
     distance_in_words:
       now: "now"
-      half_a_minute: "half a minute"
+      half_a_minute: "fél perce"
       less_than_x_seconds:
         one:   "now"
         other: "now"
