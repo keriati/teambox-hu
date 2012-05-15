@@ -77,21 +77,21 @@ hu:
     download_as_csv: CSV letöltése
     pagination: "Eredmények mutatása: "
   confirm:
-    delete_task_list: Are you sure you want to delete this task list?
-    delete_task: Are you sure you want to delete this task?
-    delete_page: Are you sure you want to delete this page?
-    delete_upload: Are you sure you want to delete this file?
-    delete_folder: Are you sure you want to delete this folder?
-    delete_group: Are you sure you want to delete this group?
+    delete_task_list: Biztos, hogy törölni akarja ezt a feladatlistát?
+    delete_task: Biztos, hogy törölni akarja ezt a feladatot?
+    delete_page: Biztos, hogy törölni akarja ezt az oldalt?
+    delete_upload: Biztos, hogy törölni akarja ezt a fájlt?
+    delete_folder: Biztos, hogy törölni akarja ezt a mappát?
+    delete_group: Biztos, hogy törölni akarja ezt a csoportot?
   not_found:
     user: "Felhasználó nem létezik."
-    conversation: "Conversation %{id} not found in this project."
-    project: "The project %{id} doesn't exist."
-    page: "Page %{id} not found in this project."
+    conversation: "A(z) %{id} beszélgetés nem található a projektben."
+    project: "A(z) %{id} projekt nem található."
+    page: "A(z) %{id} oldal nem található a projektben."
     task_list: "Task list %{id} not found in this project."
-    folder: "Folder not found in this project."
-    task: "Task %{id} not found in this project."
-    data: "There was a problem locating your data."
+    folder: "A mappa nem található a projektben."
+    task: "A(z) %{id} feladat nem található a projektben."
+    data: "Sajnor nem található az adat."
   deleted:
     conversation: "Beszélgetés törlöve: %{name}"
     task: "Feladat törölve: %{name}"
